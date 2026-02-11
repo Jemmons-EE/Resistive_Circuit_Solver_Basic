@@ -51,7 +51,7 @@ def read_netlist():                                         # Read Netlist No Ar
 
                 convert_values(props,netlist)
 
-            elif ( props[COMP.TYPE][0:2] == COMP.I_SRC ):   # a current source?
+            elif ( props[COMP.TYPE][0:2] == COMP.I_SRC ):   # CURRENT CHECK
                 props.insert(COMP.TYPE,COMP.IS)             # INSERT TYPE
 
                 convert_values(props,netlist)
@@ -64,3 +64,4 @@ def read_netlist():                                         # Read Netlist No Ar
 
 # testnetlist = read_netlist()        # Debug Statement
 # print(testnetlist)                  # Debug Statement
+
