@@ -1,6 +1,6 @@
 # Resistive_Circuit_Solver_Basic
 uses Spice Program component netlist to drive stamper and solve for currents
-Files
+Files /n
 -Constants uploaded
 -read_netlist uploaded
 -stamper pending
