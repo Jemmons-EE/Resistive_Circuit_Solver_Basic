@@ -82,7 +82,7 @@ def read_netlist():                                         # Read Netlist, Coun
         elif(typpy[0] == 2):            #UPDATE CURR SRC COUNT
             curr_cnt += 1
         else:                           #UNKNOWN COMP
-            print("Unknown component type:\n",typpy[0], 'check components list')   # bad data!
+            print("Unknown component type:\n",typpy[0], 'check components list')   #UNKNOWN COMP
             exit()                      #REPORT AND EXIT 
 
     # testnetlist, node_cnt, volt_cnt = read_netlist()      # Debug Statement
