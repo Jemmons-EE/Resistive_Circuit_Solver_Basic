@@ -8,6 +8,6 @@ Files \
 \
 -Input: netlist from spice program, usually .txt file ; examples included are zoomex#.txt 
 \
--How to run:  Run rcsb_main in Python ; zoomex.txt and zoomex2.txt are example Netlist File Names (included)
+-How to run:  Run rcsb_main in Python ; Requires rcsb_stamper and read_netlist (included);  zoomex.txt and zoomex2.txt are example Netlist File Names (included)
 
 
